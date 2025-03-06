@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="todo-input">
+            <input type="text" id="todoInput" placeholder="Enter a new todo">
+            <button onclick="addTodo()">Add Todo</button>
+        </div>
+        <ul id="todoList" class="todo-list"></ul>
+        <div class="action-buttons">
+            <button onclick="completeAllTodos()">Complete All</button>
+            <button onclick="deleteAllTodos()">Delete All</button>
+        </div>
+    </div>
+</body>
+<script src="./script/script.js"></script>
+</html>
